@@ -3,6 +3,8 @@
 
 <head>
   <title>Il mio primo sito</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
@@ -37,11 +39,12 @@
     </div>
   </nav>
 
-  <!-- Hero section -->
-  <section class="hero bg-dark text-white d-flex align-items-center" style="min-height: 75vh;">
-    <div class="container text-center">
-      <h1 class="display-4 fw-bold">Benvenuto nel mio sito!</h1>
-      <p class="lead mb-4">Scopri contenuti fantastici e progetti interessanti.</p>
+  <section class="hero position-relative text-white d-flex align-items-center">
+    <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
+
+    <div class="container text-center position-relative">
+      <h1 class="fw-bold">Benvenuto nel mio sito!</h1>
+      <p class="mb-4">Scopri contenuti fantastici e progetti interessanti.</p>
       <a href="#scopri" class="btn btn-primary btn-lg">Scopri di più</a>
     </div>
   </section>
