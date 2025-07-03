@@ -6,6 +6,11 @@ body {
   color: #333;
 }
 
+.hero {
+  background: url('img/foto.jpg') no-repeat center center;
+  background-size: cover;
+}
+
 h1 {
   font-size: 2.5rem;
   color: #007acc;
