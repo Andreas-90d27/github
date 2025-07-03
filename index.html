@@ -17,42 +17,35 @@
 
 <body>
 
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Mio Sito</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav gap-4">
+  <section class="hero bg-dark text-white d-flex flex-column position-relative position-sticky top-0">
+
+    <div class="overlay"></div>
+
+    <nav class="navbar navbar-dark position-fixed top-0">
+      <div class="container-fluid d-flex">
+        <ul class="navbar-nav flex-column gap-3 m-0 p-0">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link btn-link-custom" href="#">Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">GitHub</a>
+            <a class="nav-link btn-link-custom" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contatti</a>
+            <a class="nav-link btn-talk" href="#">Let's talk</a>
           </li>
         </ul>
       </div>
-    </div>
-  </nav>
+    </nav>
 
-  <!-- Hero -->
-  <section class="hero position-relative text-white d-flex align-items-center">
-    <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
-
-    <div class="container text-center position-relative">
-      <h1 data-aos="zoom-out" data-aos-easing="ease-in-out" class="display-4 display-md-2 fw-bold">Benvenuto nel mio sito!</h1>
-      <p data-aos="zoom-out" data-aos-delay="100" data-aos-easing="ease-in-out" class="lead fs-5 fs-md-4 mb-4">
-        Scopri contenuti fantastici e progetti interessanti.
-      </p>
-      <a data-aos="zoom-out" data-aos-delay="200" data-aos-easing="ease-in-out" href="#scopri" class="btn btn-primary btn-lg">Scopri di più</a>
-
+    <!-- Contenuto hero -->
+    <div
+      class="container flex-grow-1 d-flex flex-column justify-content-end justify-content-md-center align-items-center text-center p-5">
+      <h1 class="fw-bold">Benvenuto nel mio sito!</h1>
+      <p class="b-4">Scopri contenuti fantastici e progetti interessanti.</p>
+      <a href="#scopri" class="btn btn-primary btn-lg">Scopri di più</a>
     </div>
   </section>
+
 
   <!-- FOOTER -->
   <footer>
